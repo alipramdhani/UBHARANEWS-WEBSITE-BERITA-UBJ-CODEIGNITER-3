@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: small;
+	font-family: "Google Sans", sans-serif;
+}
+body {
+	padding: 100px 0 0 0;
+}
+
+.nav-link {
+	background-color: #0f428a;
+	border-radius: 6px;
+}
+.nav-link:hover {
+	background-color: #1d5db6;
+	border-radius: 6px;
+}
+
+#carousel .headline {
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+}
+#carousel .headline:hover,
+#section-1 .headline-section-1:hover,
+#section-2 .headline-section-2:hover {
+	color: #ff6b00;
+}
+.carousel-item {
+	position: relative;
+}
+.carousel-item img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+.gradient-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 0) 45%
+	);
+}
+.carousel-caption {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	z-index: 10;
+}
+#section-1 .headline-section-1,
+#section-2 .headline-section-2 {
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+#section-3 .headline-section-3 {
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+#prestasi .content-prestasi {
+	width: 400px;
+}
+#section-1 .selengkapnya,
+#section-2 .selengkapnya,
+#section-3 .selengkapnya {
+	text-decoration: none;
+	color: rgb(175, 175, 175);
+}
+#section-1 .selengkapnya:hover,
+#section-2 .selengkapnya:hover,
+#section-3 .selengkapnya:hover {
+	color: rgb(117, 117, 117);
+}
+#Section-6 {
+	padding: 50px 20px 130px 20px;
+	color: #fe7d21;
+	background-color: #0f428a;
+}
+#Section-6 p {
+	font-size: 14px;
+	color: white;
+}
+#Section-6 li {
+	margin: 8px 0;
+	font-size: 14px;
+	color: white;
+}

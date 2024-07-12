@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: small;
+	font-family: "Google Sans", sans-serif;
+}
+body {
+	padding: 50px 0 0 0;
+}
+.nav-link {
+	background-color: #0f428a;
+	border-radius: 6px;
+}
+.nav-link:hover {
+	background-color: #1d5db6;
+	border-radius: 6px;
+}
+#section-2 .headline-section-2 {
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+#section-2 .headline-section-2:hover {
+	color: #ff9040;
+}
+
+#section-2 .selengkapnya {
+	text-decoration: none;
+	color: white;
+	background-color: #fe7d21;
+}
+#section-2 .selengkapnya:hover {
+	background-color: #ff9040;
+}
+#Section-6 {
+	padding: 50px 20px 130px 20px;
+	color: #fe7d21;
+	background-color: #0f428a;
+}
+#Section-6 p {
+	font-size: 14px;
+	color: white;
+}
+#Section-6 li {
+	margin: 8px 0;
+	font-size: 14px;
+	color: white;
+}
